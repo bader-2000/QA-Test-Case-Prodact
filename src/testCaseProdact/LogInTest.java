@@ -16,9 +16,8 @@ public class LogInTest {
 	String website = "https://www.saucedemo.com/"; 
 	String login = "//input[@type='submit']";
 	boolean expectedName = true ;
-	boolean actualName ;
 	boolean expactedPrice = true ; 
-	String actualPrice;
+
 	
 	@Test (priority = 1 )
 	public void setUpTest () { 
